@@ -13,7 +13,6 @@ protocol LoginViewModelType {
 
   var isLoggingIn: Bool { get }
 
-  func areInputsValid() -> Bool
   func logIn(completion: @escaping () -> Void)
 }
 

@@ -13,14 +13,18 @@ protocol LoginViewModelType {
 
   var isLoggingIn: Bool { get }
 
+  func areInputsValid() -> Bool
   func logIn(completion: @escaping () -> Void)
 }
 
 final class LoginViewModel: LoginViewModelType {
   var username: String?
   var password: String?
-
   var isLoggingIn = false
+
+  func areInputsValid() -> Bool {
+    username != nil && password != nil
+  }
 
   func logIn(completion: @escaping () -> Void) {
     isLoggingIn = true

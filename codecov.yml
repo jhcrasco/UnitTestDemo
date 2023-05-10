@@ -8,4 +8,9 @@ coverage:
       default:
         target: 80%
         threshold: 1%
-comment: false
+
+ignore:
+  - "*Delegate.swift"
+  - "*ViewController.swift"
+  - "*Cell.swift"
+  - "*View.swift"

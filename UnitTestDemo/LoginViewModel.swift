@@ -43,7 +43,7 @@ final class LoginViewModel: LoginViewModelType {
 
   func logIn(completion: @escaping () -> Void) {
     isLoggingIn = true
-    DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
       self.isLoggingIn = false
       completion()
     }

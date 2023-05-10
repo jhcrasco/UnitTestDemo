@@ -10,7 +10,7 @@ coverage:
         threshold: 1%
 
 ignore:
-  - "*Delegate.swift"
-  - "*ViewController.swift"
-  - "*Cell.swift"
-  - "*View.swift"
+  - "**/*Delegate.swift"
+  - "**/*ViewController.swift"
+  - "**/*Cell.swift"
+  - "**/*View.swift"

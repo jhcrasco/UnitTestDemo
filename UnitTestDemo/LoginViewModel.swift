@@ -25,6 +25,10 @@ final class LoginViewModel: LoginViewModelType {
 
   var isAutoLoginEnabled = false
 
+  var hasUsername: Bool {
+    username != nil
+  }
+
   func setAutoLoginEnabled(_ isEnabled: Bool) {
     isAutoLoginEnabled = true
   }

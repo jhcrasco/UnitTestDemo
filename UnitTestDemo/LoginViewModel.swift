@@ -23,10 +23,6 @@ final class LoginViewModel: LoginViewModelType {
 
   var isLoggingIn = false
 
-  func areInputsValid() -> Bool {
-    username != nil && password != nil
-  }
-
   func logIn(completion: @escaping () -> Void) {
     isLoggingIn = true
     DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {

@@ -13,7 +13,6 @@
 		9F8B60272A09E06F00C7EB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B60252A09E06F00C7EB77 /* Main.storyboard */; };
 		9F8B60292A09E07200C7EB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B60282A09E07200C7EB77 /* Assets.xcassets */; };
 		9F8B602C2A09E07200C7EB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B602A2A09E07200C7EB77 /* LaunchScreen.storyboard */; };
-		9F8B60372A09E07200C7EB77 /* UnitTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B60362A09E07200C7EB77 /* UnitTestDemoTests.swift */; };
 		9F8B60502A09E0CD00C7EB77 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B604F2A09E0CD00C7EB77 /* LoginViewModel.swift */; };
 		9F8B60522A09E41F00C7EB77 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B60512A09E41F00C7EB77 /* LoginViewModelTests.swift */; };
 /* End PBXBuildFile section */
@@ -38,7 +37,6 @@
 		9F8B602B2A09E07200C7EB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F8B602D2A09E07200C7EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F8B60322A09E07200C7EB77 /* UnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F8B60362A09E07200C7EB77 /* UnitTestDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestDemoTests.swift; sourceTree = "<group>"; };
 		9F8B604F2A09E0CD00C7EB77 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		9F8B60512A09E41F00C7EB77 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				9F8B60512A09E41F00C7EB77 /* LoginViewModelTests.swift */,
-				9F8B60362A09E07200C7EB77 /* UnitTestDemoTests.swift */,
 			);
 			path = UnitTestDemoTests;
 			sourceTree = "<group>";
@@ -216,7 +213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F8B60522A09E41F00C7EB77 /* LoginViewModelTests.swift in Sources */,
-				9F8B60372A09E07200C7EB77 /* UnitTestDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
